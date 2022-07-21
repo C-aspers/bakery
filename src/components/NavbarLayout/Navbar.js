@@ -1,13 +1,21 @@
-import React from 'react';
-import './Navbar.css';
+import React from "react";
+import { useState } from "react";
+import "./Navbar.css";
 
 const Navbar = () => {
+  const [isNavExpanded, setIsNavExpanded] = useState(false);
+
   return (
-    <nav className='navigation'>
-      <a href="/" className='companyName'>
-        MacroSoft
+    <nav className="navigation">
+      <a href="/" className="brand-name">
+        Sweet Bakery
       </a>
-      <button className="hamburger">
+      <button
+        className="hamburger"
+        onClick={() => {
+          setIsNavExpanded(!isNavExpanded);
+        }}
+      >
         {/* icon from heroicons.com */}
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -23,7 +31,10 @@ const Navbar = () => {
         </svg>
       </button>
       <div
-        className="navigation-menu">
+        className={
+          isNavExpanded ? "navigation-menu-hidden" : "navigation-menu"
+        }
+      >
         <ul>
           <li>
             <a href="/home">Home</a>
