@@ -6,7 +6,7 @@
   justify-content: space-between;
   position: relative;
   padding: 0.5rem 0rem;
-  background-color: black;
+  background-color: var(--color-bg-black);
   color:#fff;
   font-weight: 300;
   box-shadow: 0 2px 2px 2px rgba(9, 9, 9, 0.23);
@@ -14,8 +14,9 @@
 
 .brand-name {
   text-decoration: none;
-  color: goldenrod;
+  color: var(--color-gold);
   font-size: 1.3rem;
+  font-weight: 600;
   margin-left: 1rem;
 }
 .navigation-menu {
@@ -38,7 +39,7 @@
   text-decoration: none;
   display: block;
   width: 100%;
-  color:whitesmoke;
+  color: var(--color-white);
 }
 
 /*removes default border on button element*/
@@ -48,8 +49,7 @@
   width: 40px;
   padding: 0.5rem;
   border-radius: 50%;
-  /*background-color: #283b8b;*/
-  background-color:  goldenrod;
+  background-color:  var(--color-bg-gold);
   cursor: pointer;
   transition: background-color 0.2s ease-in-out;
   /* positions the icon to the right and center aligns it vertically*/
@@ -60,7 +60,7 @@
   display: none;
 }
 .hamburger:hover {
-  background-color: brown;
+  background-color: var(--color-bg-variant);
 }
 
 /********************RESPONSIVE*********************/
@@ -72,20 +72,14 @@
 
 @media screen and (max-width: 768px) {
   .navigation-menu-hidden ul {
-    color: black;
+    color: var(--color-black);
   }
   .navigation-menu-hidden a {
-    color: black;
+    color: var(--color-black);
     text-decoration: none;
   }
 }
-/*
-@media screen and (max-width: 768px) {
-  .navigation-menu ul {
-    display: none;
-  }
-}
-*/
+
 @media screen and (max-width: 768px) {
   .navigation-menu ul {
     /* navigation menu is positioned to start 60px from the top of the document (which is directly below the navbar)*/
@@ -96,11 +90,12 @@
     flex-direction: column;
     /* makes menu span full height and width*/
     width: 100%;
-    height: calc(100vh - 77px);
-    background-color: white;
+    height: calc(100vh - 590px);
+    background-color: var(--color-white);
     border-top: 1px solid black;
+    /* allows you to move the navigation in front of the image*/
+    z-index: 2;
   }
-
   .navigation-menu li {
     /* centers link text and strips off margin*/
     text-align: center;
@@ -108,10 +103,11 @@
     text-decoration: none;
   }
   .navigation-menu li a {
-    color: goldenrod;
+    color: var(--color-gold);
     /* increases the surface area of the anchor tag to span the full width of the menu*/
     width: 100%;
-    padding: 1.5rem 0;
+    padding: 1rem 0;
+    font-weight: 500;
   }
   .navigation-menu li:hover {
     background-color: #eee;

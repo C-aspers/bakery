@@ -11,3 +11,24 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+:root {
+  --color-bg-black: black;
+  --color-bg: rgb(29, 29, 29);
+  --color-bg-variant: rgb(165, 42, 42);
+  --color-bg-gold: rgb(218, 165, 32);
+
+  --color-orange: #ffbb4d;
+  --color-primary-variant: rgba(213, 202, 46, 0.4);
+  --color-white: #fafafa;
+  --color-light: rgba(255, 255, 255, 0.6);
+  --color-gold: rgb(218, 165, 32);
+  --color-brown: rgb(165, 42, 42);
+  --color-black: black;
+
+  --transition: all 400ms ease;
+
+  --container-width-lg: 75%;
+  --container-width-md: 86%;
+  --container-width-sm: 90%;
+}
