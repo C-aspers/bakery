@@ -1,0 +1,20 @@
+.container_Products {
+  border: solid 1px orangered;
+  }
+
+.title_Products {
+  color: black;
+  text-align: center;
+  font-size: 46px;
+  padding: 30px 0 0 0;
+}
+
+.subtitle_Products {
+  color: goldenrod;
+  text-align: center;
+  font-size: 26px;
+  padding-bottom: 1px;
+  font-style: italic;
+  font-weight: 600;
+  font-family: "Ibarra Real Nova", serif;
+}
