@@ -37,6 +37,7 @@
     background-image: url("../../assets/breadBanner.jpg");
     background-size: 100% 100%;
     height: 70vh;
+    z-index: 1;
   }
 
   .banner_title {
@@ -54,11 +55,12 @@
     background-image: url("../../assets/breadBanner.jpg");
     background-size: 100% 100%;
     height: 56vh;
+    z-index: 1;
   }
 
   .banner_title {
     color: white;
-    padding-top: 11%;
+    padding-top: 5%;
     /*l'unité vw permet de dimensionner le texte en fonction de l'écran*/
     font-size: 5vw;
     text-align: center;
