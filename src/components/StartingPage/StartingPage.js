@@ -3,8 +3,10 @@ import AboutFirstSvg from "./AboutSVG/AboutFirstSvg";
 import AboutSecondSvg from "./AboutSVG/AboutSecondSvg";
 import AboutThirdSvg from "./AboutSVG/AboutThirdSvg";
 import blé from "../../assets/blé.jpg";
+import panierPain from "../../assets/panierPain.jpg";
 
 const StartingPage = () => {
+  const handleClick = () => {};
   return (
     <div className="content">
       <div className="starting__Value">
@@ -34,12 +36,12 @@ const StartingPage = () => {
         </div>
       </div>
       <div className="starting__Imge">
-        <div>
-          <img src={blé} alt="champs de blé" />
-        </div>
-        <div>
-          <img src={blé} alt="champs de blé" />
-        </div>
+        <img src={panierPain} alt="panier de pains" />
+        <p>
+          Pour votre plus grand plaisir, découvrez toutes les offres pérennes et
+          les nouveautés de vos boulangeries !
+        </p>
+        <button onClick={handleClick}>Découvrez les vites ! </button>
       </div>
     </div>
   );
