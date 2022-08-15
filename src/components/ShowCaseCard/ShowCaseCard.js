@@ -1,18 +1,16 @@
 import React from "react";
 import "./ShowCaseCard.css";
-import pic from "../../assets/meringue.jpg";
 import datas from "../../datas";
 import Card from "react-bootstrap/Card";
 
 const ShowCaseCard = () => {
-  const listItems = datas.map(({ id, src, title, price }) => {
+  const listItems = datas.map(({ id, title, price }) => {
     return (
       <div key={id}>
         <Card className="card_Products">
-          <Card.Img variant="top" className="card_Picture" src={pic} />
           <Card.Body>
-            <Card.Title>{title}</Card.Title>
-            <Card.Text>{price} $</Card.Text>
+            <Card.Title className="card_Text">{title}</Card.Title>
+            <Card.Text className="card_Text">{price} $</Card.Text>
           </Card.Body>
         </Card>
         <br></br>

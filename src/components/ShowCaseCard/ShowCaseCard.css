@@ -3,7 +3,7 @@
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
   border-radius: 5px;
-  width:16rem;
+  width: 15rem;
 }
 
 /* On mouse-over, add a deeper shadow */
@@ -11,16 +11,17 @@
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
 
-.card_Picture {
-  width: 16rem;
-  height: 16rem;
-}
-
 .container_ShowCaseCard {
   padding: 10px 16px;
-  /*border: solid 1px green;*/
   display: flex;
-  /*flex-direction: row;*/
   justify-content: space-around;
   flex-wrap: wrap;
+}
+
+.card_Text {
+  padding: 2px;
+  margin: 3px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
 }

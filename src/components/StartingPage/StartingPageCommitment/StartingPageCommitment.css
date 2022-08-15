@@ -1,0 +1,91 @@
+/*-------Forth Part--------*/
+
+.starting__Commitment {
+  margin: 1.5rem 1.5rem;
+  background-color: var(--color-bg-white);
+}
+
+.starting__Commitment h3 {
+  margin-top: 1.5rem;
+  color: var(--color-gold);
+  font-size: 22px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.starting__Commitment h5 {
+  margin-top: 1.6rem;
+  color: var(--color-gold);
+  font-size: 18px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.starting__Commitment p {
+  color: var(--color-black);
+  font-size: 16px;
+  font-weight: 300;
+  margin: 2rem 2rem;
+}
+
+/* =============== MEDIA QUERIES (MEDIUM DEVICES) ============ */
+@media screen and (max-width: 1024px) {
+  .starting__Commitment {
+    margin: 1.5rem 1.5rem;
+    background-color: var(--color-bg-white);
+  }
+
+  .starting__Commitment h3 {
+    margin-top: 1.5rem;
+    color: var(--color-gold);
+    font-size: 22px;
+    text-transform: uppercase;
+    text-align: center;
+  }
+
+  .starting__Commitment h5 {
+    margin-top: 1.6rem;
+    color: var(--color-gold);
+    font-size: 18px;
+    text-transform: uppercase;
+    text-align: center;
+  }
+
+  .starting__Commitment p {
+    color: var(--color-black);
+    font-size: 16px;
+    font-weight: 300;
+    margin: 2rem 2rem;
+  }
+}
+
+/* =============== MEDIA QUERIES (SMALL DEVICES) ============ */
+@media screen and (max-width: 600px) {
+  .starting__Commitment {
+    margin: 1.5rem 1.5rem;
+    background-color: var(--color-bg-white);
+  }
+
+  .starting__Commitment h3 {
+    margin-top: 1.5rem;
+    color: var(--color-gold);
+    font-size: 22px;
+    text-transform: uppercase;
+    text-align: center;
+  }
+
+  .starting__Commitment h5 {
+    margin-top: 1.6rem;
+    color: var(--color-gold);
+    font-size: 18px;
+    text-transform: uppercase;
+    text-align: center;
+  }
+
+  .starting__Commitment p {
+    color: var(--color-black);
+    font-size: 16px;
+    font-weight: 300;
+    margin: 2rem 2rem;
+  }
+}
