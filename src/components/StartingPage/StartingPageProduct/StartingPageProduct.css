@@ -1,7 +1,7 @@
 /*--------------------Second Part-------------------*/
 .starting__ImgeContent {
   width: 100%;
-  height: 20%;
+  height: auto;
 }
 
 .starting__Imge {
@@ -13,8 +13,7 @@
 
 .starting__Imge img {
   width: 100%;
-  height: 65vh;
-  /*filter: brightness(1) drop-shadow(0 0 50.75rem white);*/
+  height: 85vh;
 }
 
 .starting__Imge p {
@@ -53,8 +52,7 @@
 
 .starting__Inspiration img {
   width: 100%;
-  height: 65vh;
-  /*filter: brightness(1) drop-shadow(0 0 50.75rem white);*/
+  height: 85vh;
 }
 
 .starting__Inspiration p {
@@ -98,7 +96,7 @@
 
   .starting__Imge img {
     width: 100%;
-    /*filter: brightness(1.2) drop-shadow(-16.75rem -17rem 2.75rem white);*/
+    height: 35vh;
   }
 
   .starting__Imge p {
@@ -115,8 +113,8 @@
     color: var(--color-white);
     padding: 15px 32px;
     margin: 13rem 24rem;
-    font-size: 15px;
-    font-weight: 500;
+    font-size: 0.8em;
+    font-weight: 700;
     text-transform: uppercase;
     border: none;
     position: absolute;
@@ -129,7 +127,7 @@
 
   /*-------Third Part--------*/
   .starting__ImgeContent {
-    height: 80vh;
+    height: 60vh;
   }
 
   .starting__Inspiration {
@@ -141,6 +139,7 @@
 
   .starting__Inspiration img {
     width: 100%;
+    height: 35vh;
   }
 
   .starting__Inspiration p {
@@ -157,8 +156,8 @@
     color: var(--color-white);
     padding: 15px 32px;
     margin: 13rem 24rem;
-    font-size: 15px;
-    font-weight: 500;
+    font-size: 0.8em;
+    font-weight: 700;
     text-transform: uppercase;
     border: none;
     position: absolute;
@@ -186,7 +185,7 @@
     color: var(--color-white);
     font-weight: 300;
     position: absolute;
-    text-align: center;
+    text-align: justify;
     margin: 1.5rem 2rem;
     font-size: 12px;
   }
@@ -223,7 +222,7 @@
     color: var(--color-white);
     font-weight: 300;
     position: absolute;
-    text-align: center;
+    text-align: justify;
     margin: 1.5rem 2rem;
     font-size: 12px;
   }

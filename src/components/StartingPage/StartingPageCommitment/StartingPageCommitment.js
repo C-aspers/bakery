@@ -1,5 +1,5 @@
 import React from "react";
-import "./StartingPageCommitment.css"
+import "./StartingPageCommitment.css";
 
 const StartingPageCommitment = () => {
   return (
@@ -18,9 +18,9 @@ const StartingPageCommitment = () => {
       <p>
         Aucune concession n’est faîte sur la qualité, aussi bien au niveau de la
         fraîcheur des produits que du choix des ingrédients. Nous sélectionnons
-        notamment des blés 100% canadien pour la farine de notre baguette de
-        Marie ou encore les fruits et légumes sélectionnés avec soin : comme des
-        pommes fraîches pour nos tartes et tartelettes…
+        notamment des blés 100% canadien pour la farine de nos pains ou encore
+        les fruits et légumes sélectionnés avec soin : comme des pommes fraîches
+        pour nos tartes et tartelettes…
       </p>
     </div>
   );

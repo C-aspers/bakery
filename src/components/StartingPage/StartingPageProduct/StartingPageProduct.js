@@ -29,7 +29,7 @@ const StartingPageProduct = () => {
       <div className="starting__Inspiration">
         <img src={blé} alt="champs de blé" />
         <p>
-          L’objectif de chacune de nos recettes? Rassembler les humains
+          L’objectif de chacune de nos recettes ? Rassembler les humains
           gourmands que nous sommes autour de réalisations simples et
           savoureuses.
         </p>

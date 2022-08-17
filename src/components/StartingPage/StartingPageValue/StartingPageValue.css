@@ -3,24 +3,27 @@
   grid-template-columns: auto auto auto;
   grid-gap: 30px;
   text-align: center;
+  height: auto;
+  padding: 3rem 0 3rem 0;
 }
 
 .starting__Value svg {
-  margin-top: 1rem;
   font-size: 18px;
 }
 
 .starting__Value h5 {
   margin-top: 1.5rem;
   color: var(--color-gold);
-  font-size: 18px;
+  font-size: 1.4em;
   text-transform: uppercase;
 }
 
 .starting__Value p {
   margin-top: 1.5rem;
+  padding: 0 2rem;
   color: var(--color-black);
-  font-size: 18px;
+  font-size: 1em;
+  text-align: justify;
 }
 
 /* =============== MEDIA QUERIES (MEDIUM DEVICES) ============ */
@@ -35,7 +38,8 @@
   .starting__Value p {
     margin: 1.6rem 0.6rem;
     color: var(--color-black);
-    font-size: 12px;
+    font-size: 0.8em;
+    text-align: justify;
   }
 }
 
@@ -59,6 +63,7 @@
   .starting__Value p {
     margin: 1.6rem 0.6rem;
     color: var(--color-black);
-    font-size: 11px;
+    font-size: 0.8em;
+    text-align: justify;
   }
 }

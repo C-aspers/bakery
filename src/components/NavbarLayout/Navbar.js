@@ -8,7 +8,7 @@ const Navbar = () => {
   return (
     <nav className="navigation">
       <a href="/" className="brand-name">
-        Sweet Bakery
+        La boulangerie Québecoise
       </a>
       <button
         className="hamburger"
@@ -37,10 +37,10 @@ const Navbar = () => {
       >
         <ul>
           <li>
-            <a href="/home">Home</a>
+            <a href="/home">Accueil</a>
           </li>
           <li>
-            <a href="/about">About</a>
+            <a href="/about">À propos</a>
           </li>
           <li>
             <a href="/contact">Contact</a>
