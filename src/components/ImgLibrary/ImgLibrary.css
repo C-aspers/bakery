@@ -1,0 +1,15 @@
+.container__Library {
+  width: 100%;
+  height: auto;
+}
+
+.row__Library {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+
+.row__Library img {
+  width: 360px;
+  height: 360px;
+  transition: 1s ease-in-out;
+}

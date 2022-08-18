@@ -43,7 +43,7 @@
   text-decoration: none;
   display: block;
   width: 100%;
-  font-size: 1.1rem;
+  font-size: 1rem;
   color: var(--color-white);
   padding: 0rem 1rem;
 }
@@ -106,7 +106,7 @@
     width: 100%;
     height: auto;
     background-color: var(--color-white);
-    border-top: 1px solid black;
+    border-top: 1px solid var(--color-black);
     /* allows you to move the navigation in front of the image*/
     z-index: 2;
   }
@@ -115,6 +115,7 @@
     text-align: center;
     margin: 0;
     text-decoration: none;
+    list-style-type: none;
   }
   .navigation-menu li a {
     color: var(--color-gold);

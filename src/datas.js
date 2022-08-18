@@ -31,7 +31,7 @@ const datas = [
   },
   {
     id: 7,
-    title: "Pain complet",
+    title: "Pain sportif",
     price: "3,25",
   },
   {

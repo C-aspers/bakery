@@ -5,6 +5,7 @@ import "./App.css";
 
 import Navbar from "./components/NavbarLayout/Navbar";
 import Footers from "./components/Footers/Footers";
+import ImgLibrary from "./components/ImgLibrary/ImgLibrary";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Route path="*" element={<Navigate to="/" />} />
         <Route path="/products" element={<ProductsPages />} />
       </Routes>
+      <ImgLibrary />
       <Footers />
     </div>
   );
