@@ -15,6 +15,7 @@ function App() {
         <Route path="*" element={<Navigate to="/" />} />
         <Route path="/products" element={<ProductsPages />} />
       </Routes>
+
       <Footers />
     </div>
   );

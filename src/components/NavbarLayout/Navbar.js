@@ -8,7 +8,7 @@ const Navbar = () => {
   return (
     <nav className="navigation">
       <a href="/" className="brand-name">
-        Sweet Bakery
+        La boulangerie Québecoise
       </a>
       <button
         className="hamburger"
@@ -31,19 +31,14 @@ const Navbar = () => {
         </svg>
       </button>
       <div
-        className={
-          isNavExpanded ? "navigation-menu-hidden" : "navigation-menu"
-        }
+        className={isNavExpanded ? "navigation-menu-hidden" : "navigation-menu"}
       >
         <ul>
           <li>
-            <a href="/home">Home</a>
+            <a href="/home">Accueil</a>
           </li>
           <li>
-            <a href="/about">About</a>
-          </li>
-          <li>
-            <a href="/contact">Contact</a>
+            <a href="/products">Nos produits</a>
           </li>
         </ul>
       </div>

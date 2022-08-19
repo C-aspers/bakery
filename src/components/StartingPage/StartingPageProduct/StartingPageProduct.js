@@ -1,5 +1,4 @@
 import React from "react";
-import blé from "../../../assets/blé.jpg";
 import panierPain from "../../../assets/panierPain.jpg";
 
 import "./StartingPageProduct.css";
@@ -12,9 +11,6 @@ const StartingPageProduct = () => {
   const handleClickProducts = () => {
     navigate(`/Products`);
   };
-  const handleClickRecipes = () => {
-    navigate(`/Recipes`);
-  };
 
   return (
     <div className="starting__ImgeContent">
@@ -25,15 +21,6 @@ const StartingPageProduct = () => {
           les nouveautés de vos boulangeries !
         </p>
         <button onClick={handleClickProducts}>Découvrez les vites !</button>
-      </div>
-      <div className="starting__Inspiration">
-        <img src={blé} alt="champs de blé" />
-        <p>
-          L’objectif de chacune de nos recettes? Rassembler les humains
-          gourmands que nous sommes autour de réalisations simples et
-          savoureuses.
-        </p>
-        <button onClick={handleClickRecipes}>Consultez nos recettes</button>
       </div>
     </div>
   );

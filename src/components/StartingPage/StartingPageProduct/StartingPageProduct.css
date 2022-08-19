@@ -1,7 +1,7 @@
-/*--------------------Second Part-------------------*/
+/* ================== Part Products ================== */
 .starting__ImgeContent {
   width: 100%;
-  height: 20%;
+  height: auto;
 }
 
 .starting__Imge {
@@ -13,8 +13,7 @@
 
 .starting__Imge img {
   width: 100%;
-  height: 65vh;
-  /*filter: brightness(1) drop-shadow(0 0 50.75rem white);*/
+  height: 85vh;
 }
 
 .starting__Imge p {
@@ -27,7 +26,7 @@
 }
 
 .starting__Imge button {
-  background-color: orange;
+  background-color: var(--color-bg-orange);
   color: var(--color-white);
   padding: 15px 32px;
   margin: 15rem 24rem;
@@ -43,53 +42,12 @@
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
 
-/*-------Third Part--------*/
-.starting__Inspiration {
-  display: grid;
-  grid-template-columns: auto;
-  text-align: center;
-  position: relative;
-}
-
-.starting__Inspiration img {
-  width: 100%;
-  height: 65vh;
-  /*filter: brightness(1) drop-shadow(0 0 50.75rem white);*/
-}
-
-.starting__Inspiration p {
-  color: var(--color-white);
-  font-weight: 400;
-  position: absolute;
-  text-align: left;
-  margin: 6rem 10rem;
-  font-size: 18px;
-}
-
-.starting__Inspiration button {
-  background-color: orange;
-  color: var(--color-white);
-  padding: 15px 32px;
-  margin: 15rem 24rem;
-  font-size: 15px;
-  font-weight: 500;
-  text-transform: uppercase;
-  border: none;
-  position: absolute;
-  text-align: center;
-}
-
-.starting__Inspiration button:hover {
-  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
-}
-
 /* =============== MEDIA QUERIES (MEDIUM DEVICES) ============ */
 @media screen and (max-width: 1024px) {
   .starting__ImgeContent {
     height: 80vh;
   }
 
-  /*-------Second Part-------*/
   .starting__Imge {
     display: grid;
     grid-template-columns: 1fr;
@@ -98,7 +56,7 @@
 
   .starting__Imge img {
     width: 100%;
-    /*filter: brightness(1.2) drop-shadow(-16.75rem -17rem 2.75rem white);*/
+    height: 35vh;
   }
 
   .starting__Imge p {
@@ -111,12 +69,12 @@
   }
 
   .starting__Imge button {
-    background-color: orange;
+    background-color: var(--color-bg-orange);
     color: var(--color-white);
     padding: 15px 32px;
     margin: 13rem 24rem;
-    font-size: 15px;
-    font-weight: 500;
+    font-size: 0.8em;
+    font-weight: 700;
     text-transform: uppercase;
     border: none;
     position: absolute;
@@ -124,48 +82,6 @@
   }
 
   .starting__Imge button:hover {
-    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
-  }
-
-  /*-------Third Part--------*/
-  .starting__ImgeContent {
-    height: 80vh;
-  }
-
-  .starting__Inspiration {
-    display: grid;
-    grid-template-columns: auto;
-    text-align: center;
-    position: relative;
-  }
-
-  .starting__Inspiration img {
-    width: 100%;
-  }
-
-  .starting__Inspiration p {
-    color: var(--color-white);
-    font-weight: 300;
-    position: absolute;
-    text-align: left;
-    margin: 3rem 8rem;
-    font-size: 16px;
-  }
-
-  .starting__Inspiration button {
-    background-color: orange;
-    color: var(--color-white);
-    padding: 15px 32px;
-    margin: 13rem 24rem;
-    font-size: 15px;
-    font-weight: 500;
-    text-transform: uppercase;
-    border: none;
-    position: absolute;
-    text-align: center;
-  }
-
-  .starting__Inspiration button:hover {
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
   }
 }
@@ -186,13 +102,13 @@
     color: var(--color-white);
     font-weight: 300;
     position: absolute;
-    text-align: center;
+    text-align: justify;
     margin: 1.5rem 2rem;
     font-size: 12px;
   }
 
   .starting__Imge button {
-    background-color: orange;
+    background-color: var(--color-bg-orange);
     color: var(--color-white);
     padding: 5px 7px;
     margin: 5rem 3rem;
@@ -205,43 +121,6 @@
   }
 
   .starting__Imge button:hover {
-    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
-  }
-
-  /*-------Third Part-------*/
-  .starting__Inspiration {
-    display: grid;
-    grid-template-columns: 1fr;
-    text-align: center;
-  }
-
-  .starting__Inspiration img {
-    width: 100%;
-  }
-
-  .starting__Inspiration p {
-    color: var(--color-white);
-    font-weight: 300;
-    position: absolute;
-    text-align: center;
-    margin: 1.5rem 2rem;
-    font-size: 12px;
-  }
-
-  .starting__Inspiration button {
-    background-color: orange;
-    color: var(--color-white);
-    padding: 5px 7px;
-    margin: 5rem 3rem;
-    font-size: 8px;
-    font-weight: 500;
-    text-transform: uppercase;
-    border: none;
-    position: absolute;
-    text-align: center;
-  }
-
-  .starting__Inspiration button:hover {
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
   }
 }
