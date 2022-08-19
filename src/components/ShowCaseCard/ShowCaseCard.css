@@ -4,7 +4,7 @@
   justify-content: space-around;
   flex-wrap: wrap;
 }
-
+/************************ TABLE PAGE PRODUCTS**************************/
 table {
   width: 95%;
   /* Add shadows to create the "table" effect */
@@ -37,7 +37,7 @@ td:hover {
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
 
-/**************RESPONSIVE MEDIA***********/
+/* =============== MEDIA QUERIES (MEDIUM DEVICES) ============ */
 @media screen and (min-width: 600px) and (max-width: 1024px) {
   table {
     width: 95%;
@@ -48,7 +48,7 @@ td:hover {
     margin: 10px;
     background-color: white;
   }
-  
+
   th {
     padding: 16px 0 9px 50px;
     font-weight: 600;
@@ -58,7 +58,7 @@ td:hover {
     border-bottom: solid 1px var(--color-gold);
     font-family: "Ibarra Real Nova", serif;
   }
-  
+
   td {
     padding: 6px 0 6px 50px;
     font-weight: 600;
@@ -77,7 +77,7 @@ td:hover {
     margin: 10px;
     background-color: white;
   }
-  
+
   th {
     padding: 16px 0 9px 45px;
     font-weight: 600;
@@ -87,7 +87,7 @@ td:hover {
     border-bottom: solid 1px var(--color-gold);
     font-family: "Ibarra Real Nova", serif;
   }
-  
+
   td {
     padding: 4px 0 5px 45px;
     font-weight: 600;

@@ -6,7 +6,7 @@
 
 .column_ImgProducts img {
   width: 100%;
-  height: 100vh;
+  height: auto;
 }
 
 .column_Products {
@@ -14,43 +14,44 @@
 }
 
 .title_Products {
-  color: black;
+  color: var(--color-black);
   text-align: center;
-  font-size: 3.5em;
-  padding-top: 80px;
+  font-size: 3.2em;
+  padding-top: 40px;
 }
 
 .subtitle_Products {
-  color: goldenrod;
+  color: var(--color-gold);
   text-align: center;
   font-size: 2em;
-  padding-bottom: 1px;
   font-style: italic;
   font-weight: 600;
   font-family: "Ibarra Real Nova", serif;
+  margin-top: 60px;
+  padding-top: 60px;
 }
-/**************RESPONSIVE MEDIA***********/
+/*****************MEDIA QUERIES (MEDIUM DEVICE)***************/
 @media screen and (min-width: 600px) and (max-width: 1024px) {
   .container_Products {
     height: 80%;
     display: grid;
     grid-template-columns: 1fr;
   }
-  
+
   .column_ImgProducts img {
     width: 100%;
     height: auto;
   }
 
   .title_Products {
-    color: black;
+    color: var(--color-black);
     text-align: center;
     font-size: 2.5em;
     padding-top: 5px;
   }
 
   .subtitle_Products {
-    color: goldenrod;
+    color: var(--color-gold);
     text-align: center;
     font-size: 1.5em;
     font-style: italic;
@@ -73,14 +74,14 @@
   }
 
   .title_Products {
-    color: black;
+    color: var(--color-black);
     text-align: center;
     font-size: 2em;
     padding-top: 5px;
   }
 
   .subtitle_Products {
-    color: goldenrod;
+    color: var(--color-gold);
     text-align: center;
     font-size: 1.2em;
     font-style: italic;

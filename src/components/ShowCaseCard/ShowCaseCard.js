@@ -1,7 +1,6 @@
 import React from "react";
 import "./ShowCaseCard.css";
 import datas from "../../datas";
-//import Card from "react-bootstrap/Card";
 
 const ShowCaseCard = () => {
   return (
@@ -31,12 +30,3 @@ const ShowCaseCard = () => {
 };
 
 export default ShowCaseCard;
-
-/*
-  <Card className="card_Products">
-          <Card.Body>
-            <Card.Title className="card_Text">{title}</Card.Title>
-            <Card.Text className="card_Text">{price} $</Card.Text>
-          </Card.Body>
-        </Card>
-*/

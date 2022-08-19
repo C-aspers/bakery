@@ -29,6 +29,10 @@ const Footers = () => {
             <div className="footerLink__Footer" href="#">
               contact@laboulangeriequebecoise.ca
             </div>
+            <div className="footerLink__Footer" href="#">
+              <p>Heures d'ouverture : Tous les jours de 9h00 à 18h00 </p>
+              <p>Adresse :10036, chemin Sainte-Foy, Québec</p>
+            </div>
           </Col>
           <Col className="column__Footer">
             <div className="heading__Footer">Suivez-nous</div>

@@ -31,9 +31,7 @@ const Navbar = () => {
         </svg>
       </button>
       <div
-        className={
-          isNavExpanded ? "navigation-menu-hidden" : "navigation-menu"
-        }
+        className={isNavExpanded ? "navigation-menu-hidden" : "navigation-menu"}
       >
         <ul>
           <li>

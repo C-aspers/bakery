@@ -10,8 +10,7 @@ const Products = () => {
         <img src={eclair} alt="éclair au chocolat" />
       </div>
       <div className="column_Products">
-        <h2 className="title_Products">Nos produits</h2>
-        <h5 className="subtitle_Products">Pains, tartes et viennoiseries</h5>
+        <h2 className="subtitle_Products">Pains, tartes et viennoiseries</h2>
         <ShowCaseCard />
       </div>
     </div>
